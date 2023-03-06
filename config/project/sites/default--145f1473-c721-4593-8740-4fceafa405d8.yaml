@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: pt-PT
+name: Motoventure
+primary: true
+siteGroup: 7bfe4aa4-58ae-4a01-8f0c-d8d9bdfec8a9 # Motoventure
+sortOrder: 1

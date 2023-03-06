@@ -1,0 +1,27 @@
+columnSuffix: bzqtcdcy
+contentColumnType: text
+fieldGroup: 3c0c3cab-e196-405c-92e8-5331bb03e27e # Common
+handle: richText
+instructions: null
+name: 'Rich text'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: 1704c7f1-cc95-485d-be6a-eadada2a51bb # Content Image
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

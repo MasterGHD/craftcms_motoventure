@@ -1,0 +1,110 @@
+dateModified: 1670790662
+email:
+  fromEmail: gildoduarte@gmail.com
+  fromName: Motoventure
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+meta:
+  __names__:
+    0a2ae81b-7399-4be2-916c-10d42107daa1: 'Rich text' # Rich text
+    0da03db6-d668-4bff-99ea-1b13b8f0f4a8: Hero # Hero
+    3c0c3cab-e196-405c-92e8-5331bb03e27e: Common # Common
+    3eb03143-09d6-457d-a8d5-d9d30fb516d8: 'Stories Listing' # Stories Listing
+    005df6e8-38d3-4f00-81cf-3a755f6e7ee6: Description # Description
+    7bfe4aa4-58ae-4a01-8f0c-d8d9bdfec8a9: Motoventure # Motoventure
+    37a653fa-1c39-4171-ba16-5315fdd66b09: Photos # Photos
+    69bff3ff-7a05-4310-a00b-5abd48683eed: 'Link Text' # Link Text
+    74db721e-e1cd-43a3-bdd7-07b515b52b8c: Rider # Rider
+    145f1473-c721-4593-8740-4fceafa405d8: Motoventure # Motoventure
+    179bc466-1852-442b-8555-7f057ea7cce4: Link # Link
+    631f6c4e-5561-49cf-9112-27cc005a4f48: 'Home Page' # Home Page
+    1704c7f1-cc95-485d-be6a-eadada2a51bb: 'Content Image' # Content Image
+    5550e01f-7f7d-4268-8afd-56d52a631495: Header # Header
+    6329b3e2-9459-45aa-93c2-410f6793dfab: 'General Pages' # General Pages
+    6527e8af-af04-4e18-ac6a-cc95356b2510: 'Riders Intro Content' # Riders Intro Content
+    9373e6a7-ce47-4cb3-b38c-60296a9a3fd5: Slider # Slider
+    25583e61-cfcc-45b3-a5ce-711d6b9df47e: 'General Pages' # General Pages
+    183615f5-f05e-457f-8354-9f61d1eefe32: 'Featured Story' # Featured Story
+    654340c6-51b6-475b-8a5c-7ee1fc41d725: 'Full Name' # Full Name
+    34349688-9057-4f53-9fdc-aa1b70d6a50f: Home # Home
+    a0dfd598-c2de-4461-8ab3-6ba7f75c0e25: Footer # Footer
+    a0f491b7-74d6-46fc-8ef7-8c1f0852374b: Avatar # Avatar
+    a9e055e3-3a0f-4097-a01f-1b5291d48ff3: Photo # Photo
+    b0947df1-f206-43a8-9f0a-6ae8deba0a14: 'Hero Image' # Hero Image
+    b80f7a4f-d451-4378-9a11-10ecd4d576d5: 'Nav Links' # Nav Links
+    b8945cb4-dfc9-47ef-98b2-3e81cfc6b0ed: 'Short description' # Short description
+    be687ace-5f16-40ac-95e9-7591dda66d5a: Uploads # Uploads
+    d3f8872c-40b2-4c68-a705-cce1ed9d936f: 'Stories Listing' # Stories Listing
+    d91ec4e6-cf60-47a7-aecf-34a0aa16ba89: 'Hero Title' # Hero Title
+    dd8dc5b4-d777-4d74-8bd4-e126c2bf8d3c: Home # Home
+    e78aa919-66d6-4895-aba5-9e67c3c3a284: Riders # Riders
+    e1886e0e-a8d3-4451-bb47-9a3b0cb013eb: 'Public Schema' # Public Schema
+    eb60c7c5-b86d-4a67-acd3-75e4da63dcb4: Stories # Stories
+    eb8469ce-5b73-4e6c-b016-b122bb07a4f7: Stories # Stories
+    f2481b47-7c72-4c84-9f9b-47d0b0c84671: 'Link Destination' # Link Destination
+plugins:
+  admin-bar:
+    edition: standard
+    enabled: false
+    schemaVersion: 3.1.0
+    settings:
+      customCss: ''
+      customLinks:
+        -
+          __assoc__:
+            -
+              - linkLabel
+              - Admin
+            -
+              - linkUrl
+              - 'http://localhost/craftcms/admin'
+            -
+              - adminOnly
+              - ''
+      displayDashboardLink: true
+      displayDefaultEditSection: true
+      displayEditAuthor: true
+      displayEditDate: true
+      displayGreeting: true
+      displayGuideLink: true
+      displayLogout: true
+      displayRevisionNote: true
+      displaySettingsLink: true
+      enableMobileMenu: true
+  plugin-key-generator:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+    settings:
+      apiToken: suz6buixjmiss89q9n49k04bx1n1s9wesajk8a88
+      pluginEditions: ''
+      pluginHandles: ''
+      username: masterg
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Motoventure
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: Europe/Lisbon
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

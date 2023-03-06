@@ -1,0 +1,19 @@
+columnSuffix: wiibycyf
+contentColumnType: text
+fieldGroup: 3c0c3cab-e196-405c-92e8-5331bb03e27e # Common
+handle: shortDescription
+instructions: null
+name: 'Short description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

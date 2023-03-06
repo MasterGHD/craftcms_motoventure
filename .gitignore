@@ -1,0 +1,56 @@
+/.env
+/.idea
+/vendor
+.DS_Store
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+# App inited
+app-inited
+
+# Node modules
+/node_modules
+
+# PHPStorm config for Gulp
+!.idea
+!.idea/
+.idea/*
+!.idea/runConfigurations
+
+# npm debug
+npm-debug.log*
+
+#docker
+docker/mysql/data/*
+
+web.config
+
